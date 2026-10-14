@@ -6,10 +6,6 @@ the individual sample README files for sample-specific setup and commands.
 
 ## Required hardware and software
 
-Prior to development you will need to acquire the J-Link PLUS Compact to be able
-to flash and debug over RTT. You will also need to install nRF Util to use NCS
-(nRF Connect SDK).
-
 * [Raspberry Pi Debug Probe](https://www.electrokit.com/raspberry-pi-debug-probe.)
 * Install [nRF Util](https://docs.nordicsemi.com/bundle/nrfutil/page/guides/installing.html)
 >[!NOTE]
