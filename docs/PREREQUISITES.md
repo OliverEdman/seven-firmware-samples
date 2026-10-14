@@ -33,6 +33,14 @@ Install nRF Connect SDK manager:
 nrfutil install sdk-manager
 ```
 
+>[!NOTE]
+> You might need to update sdk-manager if you have already installed it. You can
+> update it with the following command:
+>
+> ```bash
+> nrfutil upgrade sdk-manager
+> ```
+
 Install nRF Connect SDK:
 
 ```bash
