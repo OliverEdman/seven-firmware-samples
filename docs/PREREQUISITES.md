@@ -11,8 +11,10 @@ the individual sample README files for sample-specific setup and commands.
 >[!NOTE]
 >When you enter nRF Util install link please look at there own prerequisites.
 
-Prior to flashing and using Seven you need to connect the debugger cables from the
-Raspberry Pi Debug Probe to Seven, use "DEBUG" for flashing and "UART" for debugging/logging.
+Prior to flashing and using Seven you need to connect the debugger cables from
+the Raspberry Pi Debug Probe to Seven, use "DEBUG" for flashing and "UART" for
+debug.
+
 Connect external power supply to Seven.
 >[!NOTE]
 > Sevens supported power supply level is 6-36V but it is fully possible
