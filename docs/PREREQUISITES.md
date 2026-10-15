@@ -6,17 +6,15 @@ the individual sample README files for sample-specific setup and commands.
 
 ## Required hardware and software
 
-Prior to development you will need to acquire the J-Link PLUS Compact to be able
-to flash and debug over RTT. You will also need to install nRF Util to use NCS
-(nRF Connect SDK).
-
 * [Raspberry Pi Debug Probe](https://www.electrokit.com/raspberry-pi-debug-probe.)
 * Install [nRF Util](https://docs.nordicsemi.com/bundle/nrfutil/page/guides/installing.html)
 >[!NOTE]
 >When you enter nRF Util install link please look at there own prerequisites.
 
-Prior to flashing and using Seven you need to connect the debugger cables from the
-Raspberry Pi Debug Probe to Seven, use "DEBUG" for flashing and "UART" for debugging/logging.
+Prior to flashing and using Seven you need to connect the debugger cables from
+the Raspberry Pi Debug Probe to Seven, use "DEBUG" for flashing and "UART" for
+debug.
+
 Connect external power supply to Seven.
 >[!NOTE]
 > Sevens supported power supply level is 6-36V but it is fully possible
@@ -36,6 +34,14 @@ Install nRF Connect SDK manager:
 ```bash
 nrfutil install sdk-manager
 ```
+
+>[!NOTE]
+> You might need to update sdk-manager if you have already installed it. You can
+> update it with the following command:
+>
+> ```bash
+> nrfutil upgrade sdk-manager
+> ```
 
 Install nRF Connect SDK:
 

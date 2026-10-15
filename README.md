@@ -40,53 +40,53 @@ This repository contains sample applications and tutorials for the Seven board.
 
 ## Prerequisites
 
-See [docs/PREREQUISITES.md](docs/PREREQUISITES.md), which is common prerequisites for all samples in this repository.
+See [docs/PREREQUISITES.md](docs/PREREQUISITES.md), which is common
+prerequisites for all samples in this repository.
 
-### Build and flash sample
+## Samples
 
-Build and flash Zephyr project and NCS samples:
+There are 100s of samples and demos available for Zephyr and nRF Connect SDK.
 
-* See all samples from Zephyr [here](https://docs.zephyrproject.org/latest/samples/index.html).
-* See all samples from NCS [here](https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/samples.html)
+* [Zephyr Project - Samples and Demos](https://docs.zephyrproject.org/latest/samples/index.html).
+* [nRF Connect SDK - Samples](https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/samples.html)
 
-To build applications/samples on Seven use this commando and build the sample
-you want to build:
+## Hello World
 
-Zephyr:
+Example to build [Zephyr Project - Hello World](https://docs.zephyrproject.org/latest/samples/hello_world/README.html):
 
-```bash
-west build -p always -b seven/nrf9151/ns ../zephyr/samples/drivers/led/led_strip/
-```
-
-NCS:
+Build the sample:
 
 ```bash
-west build -p always -b seven/nrf9151/ns ../nrf/samples/cellular/at_client/
+west build -p always -b seven/nrf9151/ns ../zephyr/samples/hello_world
 ```
 
-Flash:
+> [!NOTE]
+> To build a nRF Connect SDK sample run:
+>
+> ```bash
+> west build -p always -b seven/nrf9151/ns ../nrf/samples/<sample>
+> ```
+
+Flash the sample to the board:
 
 ```bash
 west flash
 ```
 
-Debug:
+To view the console output use a terminal emulator, e.g `minicom`.
 
-To debug on Seven we use UART, connect a JST-SH cable including in the
-Raspberry Pi Debug Probe package and connect it from Probes UART to Sevens UART
-header.
+Example on Linux:
 
-To see the output use a serial monitor, for example `minicom` or `screen`. See
-examples down below:
+>```bash
+>minicom -D /dev/ttyACM0 -b 115200
+>*** Booting Zephyr OS build v4.5.0-rc1-492-ge35b686be50a ***
+>Hello World! seven/nrf9151/ns
+>```
 
-### Linux
+Example on MacOS:
 
-```bash
-minicom -D /dev/ttyACM0 -b 115200
-```
-
-### macOS example
-
-```bash
-minicom -D /dev/cu.usbmodem1101 -b 115200
-```
+>```bash
+>minicom -D /dev/cu.usbmodem1101 -b 115200
+>*** Booting Zephyr OS build v4.5.0-rc1-492-ge35b686be50a ***
+>Hello World! seven/nrf9151/ns
+>```
