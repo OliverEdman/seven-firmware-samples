@@ -43,14 +43,14 @@ This repository contains sample applications and tutorials for the Seven board.
 See [docs/PREREQUISITES.md](docs/PREREQUISITES.md), which is common
 prerequisites for all samples in this repository.
 
-## Samples
+## Upstream samples
 
-There are 100s of samples and demos available for Zephyr and nRF Connect SDK.
+There are 100s of samples and demos available from Zephyr and nRF Connect SDK.
 
 * [Zephyr Project - Samples and Demos](https://docs.zephyrproject.org/latest/samples/index.html).
 * [nRF Connect SDK - Samples](https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/samples.html)
 
-## Hello World
+### Upstream hello world sample
 
 Example to build [Zephyr Project - Hello World](https://docs.zephyrproject.org/latest/samples/hello_world/README.html):
 
@@ -92,5 +92,7 @@ Example on MacOS:
 >```
 
 ## Seven samples
+
+These are samples tailored for the Seven board and developed by us.
 
 * [Temperature & Humidity sample](samples/temp_and_hum/README.md)
