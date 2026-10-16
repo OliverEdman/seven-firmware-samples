@@ -1,4 +1,4 @@
-# Temperature and Humidity
+# Temperature & Humidity
 
 This sample reads temperature and relative humidity from an HTS221 sensor on the
 Temp&Hum Click board.
