@@ -6,7 +6,7 @@ the individual sample README files for sample-specific setup and commands.
 
 ## Required hardware and software
 
-* [Raspberry Pi Debug Probe](https://www.electrokit.com/raspberry-pi-debug-probe.)
+* [Raspberry Pi Debug Probe](https://www.electrokit.com/raspberry-pi-debug-probe)
 * Install [nRF Util](https://docs.nordicsemi.com/bundle/nrfutil/page/guides/installing.html)
 >[!NOTE]
 >When you enter nRF Util install link please look at there own prerequisites.
