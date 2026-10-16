@@ -90,3 +90,7 @@ Example on MacOS:
 >*** Booting Zephyr OS build v4.5.0-rc1-492-ge35b686be50a ***
 >Hello World! seven/nrf9151/ns
 >```
+
+## Seven samples
+
+* [Temperature & Humidity sample](samples/temp_and_hum/README.md)
